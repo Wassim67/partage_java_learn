@@ -1,0 +1,6 @@
+.label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #ff4500;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}

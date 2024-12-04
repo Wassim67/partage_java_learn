@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+    <children>
+        <Label fx:id="label" alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" rotate="2.3" text="Home page!">
+         <rotationAxis>
+            <Point3D x="205.0" y="50.0" z="50.0" />
+         </rotationAxis></Label>
+        <Button onAction="#handleBack" text="Retour" />
+    </children>
+</VBox>
